@@ -89,7 +89,7 @@ foreach ($exportList as $exportProjectKey => $exportProject) {
 	$taskList = array_unique($exportProject, SORT_REGULAR);
 	$reportText .= '* '.$exportProjectKey."\n";
 	foreach ($taskList as $taskKey => $task) {
-		$reportText .= '   * '.$task['task_name']."\n";
+		$reportText .= '    *  '.$task['task_name']."\n";
 	}
 }
 echo '<pre>';
