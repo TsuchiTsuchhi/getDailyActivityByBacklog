@@ -93,6 +93,6 @@ foreach ($exportList as $exportProjectKey => $exportProject) {
 	}
 }
 echo '<pre>';
-var_dump($reportText);
+echo $reportText;
 echo '</pre>';
 
